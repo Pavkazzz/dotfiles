@@ -1,5 +1,6 @@
 (require 'ido)
 (ido-mode t)
+;;ttt
 
 ;; Linum plugin
 (require 'linum) ;; вызвать Linum
@@ -25,7 +26,7 @@
 (package-initialize)
 
 
-(setq elpy-rpc-backend "rope")
+(setq elpy-rpc-backend "jedi")
 (elpy-enable)
 
 (custom-set-variables
@@ -45,7 +46,7 @@
  '(custom-enabled-themes (quote (monokai)))
  '(custom-safe-themes
    (quote
-	("06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "51867fa64534ff7ca87fdc1537fbfffc168fa4673e3980850436dc87e31ef426" "9e7cc7f1db252d6fe0c7cc25d72d768712a97cda1f77bf63f0c1fd7be5dee7f4" "87b19fcb1acea21abe86bc389f5ece5cc31bd3de0d9106fc9960dfdcd5f65cf1" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "4ff23437b3166eeb7ca9fa026b2b030bba7c0dfdc1ff94df14dfb1bcaee56c78" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" "b06aaf5cefc4043ba018ca497a9414141341cb5a2152db84a9a80020d35644d1" "382cc6b38d34f94b91cf482e2ffec7ca160d5739d3e86d062b6efea5902311d4" "c006bc787154c31d5c75e93a54657b4421e0b1a62516644bd25d954239bc9933" "ad24ea739f229477ea348af968634cb7a0748c9015110a777c8effeddfa920f5" "74278d14b7d5cf691c4d846a4bbf6e62d32104986f104c1e61f718f9669ec04b" "87bee8dd980504d41c043e83c24abbbdb780ce5afb9c312f6915ed0aad2630ee" "d7088a7105aa09cc68e3d058f89917e07e0505e0f4ab522a6045ec8092d67c44" "ffe39e540469ef05808ab4b75055cc81266875fa4a0d9e89c2fec1da7a6354f3" "05c3bc4eb1219953a4f182e10de1f7466d28987f48d647c01f1f0037ff35ab9a" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
+	("38ba6a938d67a452aeb1dada9d7cdeca4d9f18114e9fc8ed2b972573138d4664" "9cf132f3f55a81d9dac3c3672fb1498c54642e11e27948d8b721de5a18eacf07" "06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "51867fa64534ff7ca87fdc1537fbfffc168fa4673e3980850436dc87e31ef426" "9e7cc7f1db252d6fe0c7cc25d72d768712a97cda1f77bf63f0c1fd7be5dee7f4" "87b19fcb1acea21abe86bc389f5ece5cc31bd3de0d9106fc9960dfdcd5f65cf1" "8db4b03b9ae654d4a57804286eb3e332725c84d7cdab38463cb6b97d5762ad26" "4ff23437b3166eeb7ca9fa026b2b030bba7c0dfdc1ff94df14dfb1bcaee56c78" "bffa9739ce0752a37d9b1eee78fc00ba159748f50dc328af4be661484848e476" "fa2b58bb98b62c3b8cf3b6f02f058ef7827a8e497125de0254f56e373abee088" "4aee8551b53a43a883cb0b7f3255d6859d766b6c5e14bcb01bed572fcbef4328" "4cf3221feff536e2b3385209e9b9dc4c2e0818a69a1cdb4b522756bcdf4e00a4" "b06aaf5cefc4043ba018ca497a9414141341cb5a2152db84a9a80020d35644d1" "382cc6b38d34f94b91cf482e2ffec7ca160d5739d3e86d062b6efea5902311d4" "c006bc787154c31d5c75e93a54657b4421e0b1a62516644bd25d954239bc9933" "ad24ea739f229477ea348af968634cb7a0748c9015110a777c8effeddfa920f5" "74278d14b7d5cf691c4d846a4bbf6e62d32104986f104c1e61f718f9669ec04b" "87bee8dd980504d41c043e83c24abbbdb780ce5afb9c312f6915ed0aad2630ee" "d7088a7105aa09cc68e3d058f89917e07e0505e0f4ab522a6045ec8092d67c44" "ffe39e540469ef05808ab4b75055cc81266875fa4a0d9e89c2fec1da7a6354f3" "05c3bc4eb1219953a4f182e10de1f7466d28987f48d647c01f1f0037ff35ab9a" "d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "8aebf25556399b58091e533e455dd50a6a9cba958cc4ebb0aab175863c25b9a4" default)))
  '(fci-rule-color "#073642")
  '(highlight-changes-colors (quote ("#d33682" "#6c71c4")))
  '(highlight-symbol-colors
@@ -110,7 +111,7 @@
 
 (global-set-key [f8] 'neotree-toggle)
 
-(global-set-key [f5] 'elpy-company-backend)
+(global-set-key (kbd "C-SPC") 'elpy-company-backend)
 
 
 ;; Display the name of the current buffer in the title bar
@@ -135,7 +136,34 @@
 (setq tab-always-indent 'complete)  ;; use 'complete when auto-complete is disabled
 (add-to-list 'completion-styles 'initials t)
 
-(set-default-font "Source Code Pro")
+
+(when (window-system)
+	(set-default-font "Fira Code"))
+(let ((alist '((33 . ".\\(?:\\(?:==\\)\\|[!=]\\)")
+               (35 . ".\\(?:[(?[_{]\\)")
+               (38 . ".\\(?:\\(?:&&\\)\\|&\\)")
+               (42 . ".\\(?:\\(?:\\*\\*\\)\\|[*/]\\)")
+               (43 . ".\\(?:\\(?:\\+\\+\\)\\|\\+\\)")
+               (45 . ".\\(?:\\(?:-[>-]\\|<<\\|>>\\)\\|[<>}~-]\\)")
+               (46 . ".\\(?:\\(?:\\.[.<]\\)\\|[.=]\\)")
+               (47 . ".\\(?:\\(?:\\*\\*\\|//\\|==\\)\\|[*/=>]\\)")
+               (58 . ".\\(?:[:=]\\)")
+               (59 . ".\\(?:;\\)")
+               (60 . ".\\(?:\\(?:!--\\)\\|\\(?:\\$>\\|\\*>\\|\\+>\\|--\\|<[<=-]\\|=[<=>]\\||>\\)\\|[/<=>|-]\\)")
+               (61 . ".\\(?:\\(?:/=\\|:=\\|<<\\|=[=>]\\|>>\\)\\|[<=>~]\\)")
+               (62 . ".\\(?:\\(?:=>\\|>[=>-]\\)\\|[=>-]\\)")
+               (63 . ".\\(?:[:=?]\\)")
+               (92 . ".\\(?:\\(?:\\\\\\\\\\)\\|\\\\\\)")
+               (94 . ".\\(?:=\\)")
+               (123 . ".\\(?:-\\)")
+			   ;;               (124 . ".\\(?:\\(?:|[=|]\\)\\|[=>|]\\)")
+               (126 . ".\\(?:[=@~-]\\)")
+			   )
+			 ))
+	(dolist (char-regexp alist)
+		(set-char-table-range composition-function-table (car char-regexp)
+							  `([,(cdr char-regexp) 0 font-shape-gstring]))))
+(set-face-attribute 'default nil :height 140)
 
 ;; Fringe settings
 (fringe-mode '(8 . 0)) ;; органичиталь текста только слева
