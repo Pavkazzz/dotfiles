@@ -1,9 +1,9 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/pavka/.oh-my-zsh
+export ZSH=/usr/share/oh-my-zsh
 
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
-source /usr/bin/virtualenvwrapper.sh
+#source /usr/bin/virtualenvwrapper.sh
 
 export JAVA_HOME=/usr/lib/jvm/java-8-jdk
 
@@ -13,7 +13,7 @@ alias wine='PULSE_LATENCY_MSEC=60 wine'
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="ys"
+ZSH_THEME="gitster"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -23,7 +23,7 @@ ZSH_THEME="ys"
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # export UPDATE_ZSH_DAYS=13
@@ -90,4 +90,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias playosu="WINEPREFIX=$HOME/.wineosu wine ~/Downloads/osu/osu\!.exe"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias emacs="emacsclient -t -a ''"
+# alias emacs="emacsclient -t -a ''"
+alias tmux="tmux attach || tmux new"
+#alias steam="DRI_PRIME=1 steam"
