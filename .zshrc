@@ -1,6 +1,9 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/usr/share/oh-my-zsh
 
+export EDITOR=vim
+export TERM=termite
+
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 #source /usr/bin/virtualenvwrapper.sh
