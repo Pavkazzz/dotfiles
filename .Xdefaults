@@ -1,0 +1,46 @@
+xvt*iso14755: False
+
+Xft.autohint: 0
+Xft.antialias: 1
+Xft.hinting: true
+Xft.hintstyle: hintslight
+Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+URxvt*font: -*-terminus-medium-r-*-*-20-*-*-*-*-*-*-*
+URxvt*boldFont: -*-terminus-medium-r-*-*-20-*-*-*-*-*-*-*
+urxvt.termName: xterm-256color
+urxvt.scrollBar: false
+urxvt.imLocale: en_US.UTF-8
+urxvt.loginShell: true
+urxvt.saveLines: 512
+urxvt.geometry: 130x33
+urxvt.boldMode: false
+urxvt.inheritPixmap: false
+urxvt.xftAntialias: false
+urxvt.jumpScroll: true
+urxvt.tintColor: white
+URxvt*internalBorder: 3
+URxvt*internalBordercolor: #121212
+urxvt.cursorBlink: false
+urxvt.cursorColor: #ff8939
+urxvt.cursorColor2: #121212
+urxvt.colorBD: #857672
+urxvt.colorIT: #bbbbbb
+urxvt.colorUL: #999999
+urxvt.underlineColor: #999999
+urxvt.borderless: true
+
+URxvt.background:       #000000
+URxvt.foreground:       gray75
+URxvt.color3:           DarkGoldenrod
+URxvt.color4:           RoyalBlue
+URxvt.color11:          LightGoldenrod
+URxvt.color12:          LightSteelBlue
+URxvt.color7:           gray75
+URxvt.colorBD:          #ffffff
+URxvt.colorUL:          LightSlateGrey
+URxvt.colorIT:          SteelBlue
+URxvt.cursorColor:      grey90
+URxvt.highlightColor:   grey25

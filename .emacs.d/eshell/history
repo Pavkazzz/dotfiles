@@ -1,0 +1,11 @@
+ls
+cd ..
+./configure
+./configure
+make
+ls
+echo $SHELL
+ls
+python sly_pkg.py
+python sly.py
+ls
