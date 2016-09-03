@@ -1,1 +1,0 @@
-/home/pavka/.zprezto/runcoms/zlogin
