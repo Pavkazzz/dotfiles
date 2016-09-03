@@ -8,8 +8,11 @@ Xft.dpi: 96
 Xft.rgba: rgb
 Xft.lcdfilter: lcddefault
 
-URxvt*font: -*-terminus-medium-r-*-*-20-*-*-*-*-*-*-*
-URxvt*boldFont: -*-terminus-medium-r-*-*-20-*-*-*-*-*-*-*
+
+URxvt*font: xft:terminus:size=13
+  
+!URxvt*font: -*-terminus-medium-r-*-*-20-*-*-*-*-*-*-*
+!URxvt*boldFont: -*-terminus-medium-r-*-*-20-*-*-*-*-*-*-*
 urxvt.termName: xterm-256color
 urxvt.scrollBar: false
 urxvt.imLocale: en_US.UTF-8

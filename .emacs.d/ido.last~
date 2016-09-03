@@ -13,7 +13,6 @@
 
 ;; ----- ido-work-directory-list -----
 (
-"/home/pavka/"
 "c:/Users/Pavka/Source/python/"
 "c:/Users/Pavka/Source/python/max post image/"
 "c:/HOME/"
@@ -22,7 +21,6 @@
 
 ;; ----- ido-work-file-list -----
 (
-".zshrc"
 "rethinkTest"
 "main.py"
 "__init__.py"
@@ -33,8 +31,6 @@
 
 ;; ----- ido-dir-file-cache -----
 (
-("/home/pavka/" (22459 17681 932276 514000) ".gitconfig" ".Xauthority" ".dmrc" "Desktop/" ".git/" ".xfce4-session.verbose-log" ".config/" "steam.sh" ".zshrc" ".zprezto/" "Downloads/" ".vim/" "source/" ".emacs.d/" ".emacs" ".mozilla/" "rethinkdb_data/" ".bash_profile" ".PyCharm2016.2/" ".bashrc" ".gtk-bookmarks" ".viminfo" ".gnupg/" ".zhistory" ".bash_logout" ".bash_history" "./" "yota.sh" ".macromedia/" ".vimrc" ".zcompdump-pavka-5.2" ".cache/" ".java/" ".zcompdump" ".zshrc_" ".local/" ".zprofile" ".fonts/" ".xsession-errors" ".xsession-errors.old" ".zshenv" ".xfce4-session.verbose-log.last" ".zlogin" ".zsh_history" ".python_history" ".zlogout" ".adobe/" "../" "wallpaper/" ".ICEauthority" ".zpreztorc" ".zcompdump.zwc" ".Xdefaults" "oh-my-zsh-theme/" ".ssh/")
-
 ("c:/Users/Pavka/Source/dotfiles/" (22142 12510 0 0) ".zshrc" ".Xdefaults" ".vimrc" ".vim/" ".git/" ".fonts/" ".emacs.d/" ".emacs" "#.vimrc#" "../" "./")
 
 ("c:/HOME/" (22170 11986 0 0) "apt-cyg" ".zshrc" ".zenmap/" ".Xdefaults" ".vimrc" ".viminfo" ".vim/" ".ssh/" ".spacemacs" ".minttyrc" ".local/" ".ipython/" ".fonts/" ".emacs.d/" ".emacs" ".config/" ".cache/" ".bash_history" "../" "./")
